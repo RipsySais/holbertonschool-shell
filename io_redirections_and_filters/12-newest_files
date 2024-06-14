@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name "my-pattern" -print0 | xargs -r -0 ls -1 -t | head -1
+ls -1t | head -10
