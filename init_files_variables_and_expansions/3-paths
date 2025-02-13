@@ -1,2 +1,2 @@
-#!/bin/bin
-echo "$PATH" | tr ':' '\n' | grep bin | wc -l
+#!/bin/bash
+echo "$PATH" | tr ':' '\n' | grep -c '^/'
